@@ -78,7 +78,7 @@ body {
   color: #212121;
   }
 
-.heading-2{
+.heading-2 {
   padding: 5% 0% 1% 0%;
   font-family: "Roboto";
   font-size: 25px;
@@ -97,11 +97,20 @@ body {
   font-weight: 200;
 }
 
+.section-content a {
+  text-decoration: none;
+  color: #0000CC;
+}
+
+.section-content a:hover {
+  color: #000099;
+}
+
 .section-content +.section-content {
   padding-top: 16px;
 }
 
-.about-logo{
+.about-logo {
   margin: 10px;
   width: 60px;
   height: 60px;
@@ -269,7 +278,8 @@ p{
   }
 
   .background-content{
-    margin: 31% 9% 20% 13%
+    margin-top: 14%;
+    width: 70%;
   }
 
   .object{
@@ -294,6 +304,10 @@ p{
 
 /*MEDIA QUERY*/
 @media only screen and (max-width : 380px) {
+  .background-content{
+    margin-top: 14%;
+    width: 90%;
+  }
   .card {
     width: 95%;
   }
