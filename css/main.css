@@ -31,7 +31,7 @@ body {
 .background-content{
   font-family: "Roboto";
   color: #fff;
-  max-width: 450px;
+  max-width: 35%;
   position: static; 
   top: 0; 
   left: 0;
@@ -65,6 +65,7 @@ body {
 .logo-section h2{
   font-size: 1.4em;
   margin-bottom: 2%;
+  font-family: "Roboto",sans-serif;
 }
 
 .heading{
@@ -127,6 +128,10 @@ body {
 
 h3.heading{
   font-size: 40px;
+}
+
+.heading h2{
+  font-family: "Roboto",sans-serif;
 }
 
 p{
@@ -259,6 +264,14 @@ p{
     vertical-align: top;
 }
 
+.container h4{
+  font-family: "Roboto",sans-serif;
+}
+
+.container p{
+  font-family: "Roboto",sans-serif;
+}
+
 /*MEDIA QUERY*/
 @media only screen and (max-width : 640px) {
   .header-logo-image{
@@ -279,7 +292,7 @@ p{
 
   .background-content{
     margin-top: 14%;
-    width: 70%;
+    max-width: 50%;
   }
 
   .object{
@@ -306,7 +319,7 @@ p{
 @media only screen and (max-width : 380px) {
   .background-content{
     margin-top: 14%;
-    width: 90%;
+    max-width: 80%;
   }
   .card {
     width: 95%;
