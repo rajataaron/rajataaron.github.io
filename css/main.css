@@ -103,7 +103,7 @@ body {
 .heading{
   font-weight: bold;
   padding-bottom: 3%;
-  font-family: "Roboto";
+  font-family: "Raleway";
   font-size: 55px;
   line-height: 65px;
   text-align: center;
@@ -313,7 +313,7 @@ p{
     margin-bottom: 40px;
 }
 .content-portfolio{
-  padding: 5% 0%;
+  padding: 5% 0% 1% 0%;
   font-family: "Raleway";
 }
 .content-portfolio .container-fluid {
@@ -376,6 +376,9 @@ p{
   font-size: 14px;
   letter-spacing: normal;
   line-height: 20px;
+}
+.col-sm-6.content-section_box {
+    padding: 15px;
 }
 /*MEDIA QUERY*/
 @media only screen and (max-width : 640px) {
