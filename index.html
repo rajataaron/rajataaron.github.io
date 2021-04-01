@@ -35,10 +35,7 @@
 	      			<a href="https://github.com/rajataaron" target="_blank"><i class="fab fa-github-square"></i></a>
 	      			<a href="https://twitter.com/rajataaron" target="_blank"><i class="fab fa-twitter-square"></i></a>
 	      			<a href="https://www.linkedin.com/in/rajataaron/" target="_blank"><i class="fab fa-linkedin"></i></a>
-	      			<!-- <a href="https://www.behance.net/rajataaron" target="_blank"><i class="fab fa-behance-square"></i></a> -->
-	      			<!-- <a href="https://medium.com/@rajataaron" target="_blank"><i class="fab fa-medium"></i></a> -->
 	      			<a href="https://www.instagram.com/rajataaron/" target="_blank"><i class="fab fa-instagram"></i></a>
-	      			<!-- <a href="https://www.flickr.com/people/rajataaron/" target="_blank"><i class="fab fa-flickr"></i></a> -->
 	      		</p>
 	    		</div>
 				</div>
@@ -51,6 +48,17 @@
 					<h4 class="content__info">Glimpse of my work.</h4>
 				</div>
 				<div class="row container-portfolio_grid">
+					<div class="col-sm-3">
+						<div class="portfolio-card">
+							<img class="card-img" src="img/project/yeti-website.jpg">
+							<div class="content card--info">
+								<div class="content__text">
+									<h3 class="content__heading">YETI NGO</h3>
+									<h5 class="content__body">A website for a non-profitable NGO. For the better reach among the community.</h5>
+								</div>
+							</div>
+						</div>
+					</div>
 					<div class="col-sm-3">
 						<div class="portfolio-card">
 							<img class="card-img" src="img/project/project-sarah.png">
@@ -102,17 +110,6 @@
 								<div class="content__text">
 									<h3 class="content__heading">AFROST Open Source</h3>
 									<h5 class="content__body">The website is made under open source contribution and for an organisation.</h5>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="col-sm-3">
-						<div class="portfolio-card">
-							<img class="card-img" src="img/project/project-techclub.jpg">
-							<div class="content card--info">
-								<div class="content__text">
-									<h3 class="content__heading">GNIOT Tech Club</h3>
-									<h5 class="content__body">The website is made for a technical club of college named as GNIOT - TechClub.</h5>
 								</div>
 							</div>
 						</div>
@@ -200,22 +197,21 @@
 			</div>
 			<!-- Resume section-->
 			<div class="about client">
-				<a href="https://drive.google.com/open?id=16AXuZ_QO_pCRS9zo5WP6KJ0oTgaPC3n7" target="_blank"><button class="button button1">Download my Resume</button></a>
+				<a href="https://drive.google.com/file/d/1GmgIIhINIP23sQOzNpLhND-lJYjUFY7e/view?usp=sharing" target="_blank"><button class="button button1">Download my Resume</button></a>
 			</div>
 		</div>			
 		<div class="footer">
 			<div class="container-fluid footer-section contact-info">
-	 			<p class="contact-address">© Copyright 2019.</p>
+	 			<p class="contact-address">© Copyright <span id="year"></span>.</p>
 			</div>
 		</div>
 		<!--scripts-->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
-    <script async="" src="js/analytics.js"></script>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0 maximum-scale=1, user-scalable=no">
-  	<script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
-  	<script type="text/javascript" src="js/jquery.scrollNav.min.js"></script>
-    <script type="text/javascript" src="js/jquery.scrollnav.js"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+		<script>
+			let date = new Date();
+			let year = date.getFullYear();
+			document.getElementById("year").innerText = year;
+		</script>
 	</body>
 </html>
